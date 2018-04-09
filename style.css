@@ -8,7 +8,7 @@ body {
 }
 
 h4 {
-	margin:6px 0 0 0;
+	margin: 6px 0 0 0;
 }
 
 a {
@@ -30,6 +30,31 @@ li {
 	list-style: none;
 }
 
+#project i {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.project-item > .project-info {
+	display: flex;
+}
+
+.project-item > .project-info > ul {
+	width: 400px;
+	white-space: pre-line;
+	padding-right: 20px;
+}
+
+.project-item > .project-info > div > a > img {
+	width: 400px;
+	display: block;
+}
+
+.project-item > .project-info > div > a {
+	display: block;
+}
+
+
 .layout {
 	width: 960px;
 	margin: 30px auto;
@@ -47,6 +72,10 @@ footer {
 main,
 footer {
 	width: 95%;
+}
+
+.name > div > .private-info {
+	margin-left: 0;
 }
 
 header > ul {
@@ -103,6 +132,7 @@ header .information li {
 header .information li > span {
 	margin-right: 10px;
 }
+
 #private h3,
 #ability h3,
 #work h3,
